@@ -84,4 +84,4 @@ int main() {
     printf("PIB per Capita: R$ %.2f .\n", pibpc2);
 
     return 0;
-}
+} 
