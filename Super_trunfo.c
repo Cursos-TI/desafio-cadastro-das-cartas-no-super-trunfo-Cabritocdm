@@ -154,7 +154,13 @@ cc= Codigo da Carta
 
     printf("----------Placar final---------\n");
     printf("%s: %d pontos\n", nc1, pontos1);
-    printf("%s: %d pontos\n", nc2, pontos2);
+    printf("%s: %d pontos\n\n", nc2, pontos2);
 
+//o atributo escolhido foi a pontuação total.
+     if (pontos1>pontos2){
+        printf("A Carta %s Venceu\n\n", nc1);
+    }else {
+        printf("A Carta %s Venceu\n\n", nc2);
+    }
     return 0;
 }
